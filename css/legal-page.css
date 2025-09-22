@@ -1,17 +1,26 @@
 .legal-header {
+  position:fixed;
+  top: 0;
   background-color: #e2e2e2;
   padding: 30px;
   margin-top: 60px;
   width: 100%;
+  z-index: 100;
 }
 
 .legal-header h1 {
+  position: fixed;
+  top:75px;
+  text-align: center;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
 }
 
 main {
+  position: relative;
+  top: 120px;
+  padding-bottom: 80px;
 }
 
 section {
@@ -26,6 +35,9 @@ section {
 }
 
 .section-label {
+  position: sticky;
+  top: 0px;
+  bottom: 20px;
   width: 100%;
   background-color: #2b2d3b;
   height: max-content;
@@ -53,6 +65,8 @@ section {
 }
 
 footer {
+  position: fixed;
+  top: 625px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -62,6 +76,8 @@ footer {
 }
 
 .footer-content {
+  position: fixed;
+  top: 640px;
   width: 100%;
   max-width: 900px;
   display: flex;
